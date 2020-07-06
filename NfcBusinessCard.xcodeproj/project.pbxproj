@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1049845324A290FD008B6E6C /* PageFoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1049845224A290FD008B6E6C /* PageFoldViewController.swift */; };
+		10E5AD1A24A1145B00DD043D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AD1924A1145B00DD043D /* AppDelegate.swift */; };
+		10E5AD1C24A1145B00DD043D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AD1B24A1145B00DD043D /* SceneDelegate.swift */; };
+		10E5AD1E24A1145B00DD043D /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AD1D24A1145B00DD043D /* StartPageViewController.swift */; };
+		10E5AD2124A1145B00DD043D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E5AD1F24A1145B00DD043D /* Main.storyboard */; };
+		10E5AD2324A1145F00DD043D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E5AD2224A1145F00DD043D /* Assets.xcassets */; };
+		10E5AD2624A1145F00DD043D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E5AD2424A1145F00DD043D /* LaunchScreen.storyboard */; };
+		10E5AD2F24A118D600DD043D /* BusinessCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AD2E24A118D600DD043D /* BusinessCardViewController.swift */; };
+		10E5AD3124A1192300DD043D /* BusinessCardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E5AD3024A1192300DD043D /* BusinessCardViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1049845224A290FD008B6E6C /* PageFoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFoldViewController.swift; sourceTree = "<group>"; };
+		10E5AD1624A1145B00DD043D /* NfcBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NfcBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E5AD1924A1145B00DD043D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10E5AD1B24A1145B00DD043D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10E5AD1D24A1145B00DD043D /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
+		10E5AD2024A1145B00DD043D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10E5AD2224A1145F00DD043D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10E5AD2524A1145F00DD043D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10E5AD2724A1145F00DD043D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E5AD2D24A114EB00DD043D /* NfcBusinessCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NfcBusinessCard.entitlements; sourceTree = "<group>"; };
+		10E5AD2E24A118D600DD043D /* BusinessCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardViewController.swift; sourceTree = "<group>"; };
+		10E5AD3024A1192300DD043D /* BusinessCardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessCardViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E5AD1324A1145B00DD043D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E5AD0D24A1145B00DD043D = {
+			isa = PBXGroup;
+			children = (
+				10E5AD1824A1145B00DD043D /* NfcBusinessCard */,
+				10E5AD1724A1145B00DD043D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10E5AD1724A1145B00DD043D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E5AD1624A1145B00DD043D /* NfcBusinessCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E5AD1824A1145B00DD043D /* NfcBusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				10E5AD2D24A114EB00DD043D /* NfcBusinessCard.entitlements */,
+				10E5AD1924A1145B00DD043D /* AppDelegate.swift */,
+				10E5AD1B24A1145B00DD043D /* SceneDelegate.swift */,
+				10E5AD1D24A1145B00DD043D /* StartPageViewController.swift */,
+				10E5AD1F24A1145B00DD043D /* Main.storyboard */,
+				10E5AD2224A1145F00DD043D /* Assets.xcassets */,
+				10E5AD2424A1145F00DD043D /* LaunchScreen.storyboard */,
+				10E5AD2724A1145F00DD043D /* Info.plist */,
+				10E5AD2E24A118D600DD043D /* BusinessCardViewController.swift */,
+				10E5AD3024A1192300DD043D /* BusinessCardViewController.storyboard */,
+				1049845224A290FD008B6E6C /* PageFoldViewController.swift */,
+			);
+			path = NfcBusinessCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E5AD1524A1145B00DD043D /* NfcBusinessCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E5AD2A24A1145F00DD043D /* Build configuration list for PBXNativeTarget "NfcBusinessCard" */;
+			buildPhases = (
+				10E5AD1224A1145B00DD043D /* Sources */,
+				10E5AD1324A1145B00DD043D /* Frameworks */,
+				10E5AD1424A1145B00DD043D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NfcBusinessCard;
+			productName = NfcBusinessCard;
+			productReference = 10E5AD1624A1145B00DD043D /* NfcBusinessCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E5AD0E24A1145B00DD043D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Oscar Berggren";
+				TargetAttributes = {
+					10E5AD1524A1145B00DD043D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 10E5AD1124A1145B00DD043D /* Build configuration list for PBXProject "NfcBusinessCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E5AD0D24A1145B00DD043D;
+			productRefGroup = 10E5AD1724A1145B00DD043D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E5AD1524A1145B00DD043D /* NfcBusinessCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E5AD1424A1145B00DD043D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E5AD2624A1145F00DD043D /* LaunchScreen.storyboard in Resources */,
+				10E5AD3124A1192300DD043D /* BusinessCardViewController.storyboard in Resources */,
+				10E5AD2324A1145F00DD043D /* Assets.xcassets in Resources */,
+				10E5AD2124A1145B00DD043D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E5AD1224A1145B00DD043D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E5AD2F24A118D600DD043D /* BusinessCardViewController.swift in Sources */,
+				10E5AD1E24A1145B00DD043D /* StartPageViewController.swift in Sources */,
+				10E5AD1A24A1145B00DD043D /* AppDelegate.swift in Sources */,
+				1049845324A290FD008B6E6C /* PageFoldViewController.swift in Sources */,
+				10E5AD1C24A1145B00DD043D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10E5AD1F24A1145B00DD043D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E5AD2024A1145B00DD043D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10E5AD2424A1145F00DD043D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E5AD2524A1145F00DD043D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E5AD2824A1145F00DD043D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10E5AD2924A1145F00DD043D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E5AD2B24A1145F00DD043D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NfcBusinessCard/NfcBusinessCard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = NfcBusinessCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BreInteractive.NfcBusinessCard1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E5AD2C24A1145F00DD043D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NfcBusinessCard/NfcBusinessCard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = NfcBusinessCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BreInteractive.NfcBusinessCard1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E5AD1124A1145B00DD043D /* Build configuration list for PBXProject "NfcBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E5AD2824A1145F00DD043D /* Debug */,
+				10E5AD2924A1145F00DD043D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E5AD2A24A1145F00DD043D /* Build configuration list for PBXNativeTarget "NfcBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E5AD2B24A1145F00DD043D /* Debug */,
+				10E5AD2C24A1145F00DD043D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10E5AD0E24A1145B00DD043D /* Project object */;
+}
